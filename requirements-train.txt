@@ -1,0 +1,8 @@
+# Training & evaluation: everything in requirements.txt plus Sentence-BERT and charting.
+# For a CPU-only PyTorch (much smaller), install it first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+-r requirements.txt
+sentence-transformers>=3.0
+matplotlib>=3.8
+pytest>=8.0
+httpx>=0.27

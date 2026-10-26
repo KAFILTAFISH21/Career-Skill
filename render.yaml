@@ -1,0 +1,8 @@
+# Render Blueprint: New > Blueprint > connect this repo
+services:
+  - type: web
+    name: skillpulse
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    autoDeploy: true

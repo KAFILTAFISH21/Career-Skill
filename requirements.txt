@@ -1,0 +1,11 @@
+# Runtime: API + dashboard (no PyTorch needed - skill embeddings are precomputed in artifacts/)
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+spacy>=3.8,<3.9
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+xgboost-cpu>=3.0
+scikit-learn>=1.5
+pandas>=2.2
+numpy>=1.26
+scipy>=1.12
